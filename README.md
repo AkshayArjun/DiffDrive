@@ -88,6 +88,7 @@
 # Toolboxes used : 
 
 | Name | link for reference | 
+|------|--------------------|
 | SLAM Toolbox | [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) |
 | Nav2 Stack | [Nav2](https://roboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/) |
 
