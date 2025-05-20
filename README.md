@@ -151,3 +151,9 @@ source install/setup.bash
 | ros2 | run | training | talker | startst he talker node that publishes using the mesasge type "Person" | 
 | ros2 | run | training | client {insert num 1 } { insert num 2 } | starts a client and waits for the service to be active | 
 | ros2 | run | training | service | takes the client arguements and returns their sum | 
+
+
+
+![image](https://github.com/user-attachments/assets/b91adcc7-0cbc-44b4-80c0-8eb7c83210b8)
+
+
