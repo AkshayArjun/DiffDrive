@@ -98,7 +98,7 @@ is a comprehensive ROS 2 project for simulating and controlling a differential d
 | Name | Version | link for referene | 
 |------|---------|-------------------|
 | Ros2 | Humble | [install ros2 humble](https://docs.ros.org/en/humble/Installation.html) |
-| ignitiion gazebo | fortress | [install](https://gazebosim.org/docs/fortress/install/) |
+| ignitiion gazebo | fortress | [install ignition gazebo](https://gazebosim.org/docs/fortress/install/) |
 
 # Toolboxes used : 
 
