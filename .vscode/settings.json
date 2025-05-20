@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/akshay/dd_ws/build/training",
+        "/home/akshay/dd_ws/install/training/lib/python3.10/site-packages",
+        "/home/akshay/dd_ws/install/training_interfaces/local/lib/python3.10/dist-packages",
+        "/home/akshay/dd_ws/build/diff_drive",
+        "/home/akshay/dd_ws/install/diff_drive/lib/python3.10/site-packages",
+        "/home/akshay/dd_ros/build/training",
+        "/home/akshay/dd_ros/install/training/lib/python3.10/site-packages",
+        "/home/akshay/dd_ros/install/training_interfaces/local/lib/python3.10/dist-packages",
+        "/home/akshay/dd_ros/install/training_interfaces/lib/python3.10/site-packages",
+        "/home/akshay/dd_ros/build/diff_drive",
+        "/home/akshay/dd_ros/install/diff_drive/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/akshay/dd_ws/build/training",
+        "/home/akshay/dd_ws/install/training/lib/python3.10/site-packages",
+        "/home/akshay/dd_ws/install/training_interfaces/local/lib/python3.10/dist-packages",
+        "/home/akshay/dd_ws/build/diff_drive",
+        "/home/akshay/dd_ws/install/diff_drive/lib/python3.10/site-packages",
+        "/home/akshay/dd_ros/build/training",
+        "/home/akshay/dd_ros/install/training/lib/python3.10/site-packages",
+        "/home/akshay/dd_ros/install/training_interfaces/local/lib/python3.10/dist-packages",
+        "/home/akshay/dd_ros/install/training_interfaces/lib/python3.10/site-packages",
+        "/home/akshay/dd_ros/build/diff_drive",
+        "/home/akshay/dd_ros/install/diff_drive/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
