@@ -97,7 +97,9 @@ is a comprehensive ROS 2 project for simulating and controlling a differential d
 
 1). Create a Worspace with an src folder:
 
-```#!/bin/bash
+```
+#!/bin/bash
+
 mkdir dd_ros
 cd dd_ros
 mkdir src 
