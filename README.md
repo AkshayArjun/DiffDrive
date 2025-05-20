@@ -82,6 +82,7 @@
 # Softwares used  : 
 
 | Name | Version | link for referene | 
+|------|---------|-------------------|
 | Ros2 | Humble | [install ros2 humble](https://docs.ros.org/en/humble/Installation.html) |
 | ignitiion gazebo | fortress | [install](https://gazebosim.org/docs/fortress/install/) |
 
@@ -102,14 +103,36 @@ cd dd_ros
 mkdir src 
 
 ```
-2). in the src folder, clone the github 
+2). in the src folder, clone contents of the github into the folder
 
 ```
+git clone https://github.com/AkshayArjun/DiffDrive.git
 
 ```
 
 3). Install dependencies: 
 
 ```
-conda [name] create -f env.yml
+rosdep install --from-paths src -y --ignore-src
 ```
+
+4). colcon build it from workspace folder, then source it: 
+
+```
+colcon build --symlink-install
+source install/setup.bash
+
+```
+
+# Featueres : 
+
+| prefix | fnction | pkg | file | description| 
+|--------| ------- |-----|------|------------|
+|ros2 | launch | diff_drive | empty_world.launch.py | Opens a world with obstacles and the bot (to check if everything is working fine) | 
+| ros2 | launch | diff_drive | localization_launch.py | runs the localisation algorithmn which will be later used for nav2 | 
+| ros2 | launch | diff_drive | navigateion_launch.py | runs nav2 stack that takes care of obstacle avoidance | 
+|||||
+| ros2 | run | training | listner | starts the listener node | 
+| ros2 | run | training | talker | startst he talker node that publishes using the mesasge type "Person" | 
+| ros2 | run | training | clinet {insert num 1 } { insert num 2 } | starts a client and waits for the service to be active | 
+| ros2 | run | training | service | takes the client arguements and returns their sum | 
