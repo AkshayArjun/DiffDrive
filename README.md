@@ -1,7 +1,7 @@
 # DiffDrive
 
 **DiffDrive** 
-A comprehensive ROS 2 project for simulating and controlling a differential drive robot using Gazebo. This repository not only provides robot descriptions and simulation launch files but also includes training modules to understand ROS 2 communication paradigms.
+is a comprehensive ROS 2 project for simulating and controlling a differential drive robot using Gazebo. This repository not only provides robot descriptions and simulation launch files but also includes training modules to understand ROS 2 communication paradigms.
 
 # Project Structure
 ```
@@ -97,7 +97,7 @@ A comprehensive ROS 2 project for simulating and controlling a differential driv
 
 1). Create a Worspace with an src folder:
 
-```
+```#!/bin/bash
 mkdir dd_ros
 cd dd_ros
 mkdir src 
