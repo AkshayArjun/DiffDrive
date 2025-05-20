@@ -130,9 +130,9 @@ source install/setup.bash
 |--------| ------- |-----|------|------------|
 |ros2 | launch | diff_drive | empty_world.launch.py | Opens a world with obstacles and the bot (to check if everything is working fine) | 
 | ros2 | launch | diff_drive | localization_launch.py | runs the localisation algorithmn which will be later used for nav2 | 
-| ros2 | launch | diff_drive | navigateion_launch.py | runs nav2 stack that takes care of obstacle avoidance | 
+| ros2 | launch | diff_drive | navigation_launch.py | runs nav2 stack that takes care of obstacle avoidance | 
 |||||
 | ros2 | run | training | listner | starts the listener node | 
 | ros2 | run | training | talker | startst he talker node that publishes using the mesasge type "Person" | 
-| ros2 | run | training | clinet {insert num 1 } { insert num 2 } | starts a client and waits for the service to be active | 
+| ros2 | run | training | client {insert num 1 } { insert num 2 } | starts a client and waits for the service to be active | 
 | ros2 | run | training | service | takes the client arguements and returns their sum | 
