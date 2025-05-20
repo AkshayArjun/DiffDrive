@@ -82,7 +82,7 @@ is a comprehensive ROS 2 project for simulating and controlling a differential d
 # Features : 
 
 #### Robot Description : 
- - utilizes URDF and Xacro files to define the robot's physical structure, including components like LIDAR sensors and inertial properties.
+ - utilizes URDF and Xacro files to define the robot's physical structure, including components like LIDAR & IMU sensors 
 #### Simulation Launch Files : 
 - Provides launch scripts to initiate simulations in Gazebo, set up robot descriptions, and configure navigation and localization modules.
 #### Configuration Files : 
