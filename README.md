@@ -79,6 +79,20 @@ is a comprehensive ROS 2 project for simulating and controlling a differential d
 
 ```
 
+# Features : 
+
+## Robot Description : 
+- utilizes URDF and Xacro files to define the robot's physical structure, including components like LIDAR sensors and inertial properties.
+## Simulation Launch Files : 
+- Provides launch scripts to initiate simulations in Gazebo, set up robot descriptions, and configure navigation and localization modules.
+## Configuration Files : 
+- Includes YAML files for setting parameters related to navigation, mapping, and sensor integration, facilitating seamless operation within the ROS 2 ecosystem.
+## Training Modules : 
+- Custom Messages and Services: Demonstrates how to define and use custom message (CustomMessage.msg) and service (CustomService.srv) types in ROS 2.
+- Publisher and Subscriber Nodes: Provides examples (publisher_node.py, subscriber_node.py) to illustrate the publisher-subscriber communication model.
+- Client and Service Nodes: Includes examples (client_node.py, service_node.py) showcasing the client-service interaction in ROS 2.
+
+
 # Softwares used  : 
 
 | Name | Version | link for referene | 
@@ -98,7 +112,6 @@ is a comprehensive ROS 2 project for simulating and controlling a differential d
 1). Create a Worspace with an src folder:
 
 ```
-#!/bin/bash
 
 mkdir dd_ros
 cd dd_ros
