@@ -109,7 +109,7 @@ is a comprehensive ROS 2 project for simulating and controlling a differential d
 
 # Installation
 
-1). Create a Worspace with an src folder:
+1). Create a Workspace with an src folder:
 
 ```
 
@@ -118,7 +118,7 @@ cd dd_ros
 mkdir src 
 
 ```
-2). in the src folder, clone contents of the github into the folder
+2). in the src folder, clone the contents of the github repo into the folder
 
 ```
 git clone https://github.com/AkshayArjun/DiffDrive.git
